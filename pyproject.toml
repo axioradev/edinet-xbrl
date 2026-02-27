@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "edinet-xbrl"
+version = "0.1.0"
+description = "Parse EDINET XBRL filings into structured JSON. JP-GAAP, IFRS, and US-GAAP."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+keywords = ["edinet", "xbrl", "japan", "financial-data", "parser", "ixbrl"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Text Processing :: Markup :: XML",
+]
+dependencies = [
+    "lxml>=5.3",
+    "pydantic>=2.10",
+    "httpx>=0.28",
+    "tenacity>=8.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "respx>=0.22",
+    "ruff>=0.8",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/edinet_xbrl"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/edinet_xbrl"]
+
+[project.urls]
+Homepage = "https://github.com/axioradev/edinet-xbrl"
+Issues = "https://github.com/axioradev/edinet-xbrl/issues"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
