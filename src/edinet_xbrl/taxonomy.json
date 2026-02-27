@@ -1,0 +1,1798 @@
+{
+  "_meta": {
+    "taxonomy_year": "2026",
+    "source": "FSA EDINET Taxonomy",
+    "field_map_count": 131,
+    "fields_defined": 72
+  },
+  "field_map": {
+    "jpdei_cor:EDINETCodeDEI": {
+      "field": "edinet_code",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "EDINETコード",
+      "label_en": "EDINET code",
+      "matched_by": "label"
+    },
+    "jplvh_cor:EDINETCodeDEI": {
+      "field": "edinet_code",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "EDINETコード",
+      "label_en": "EDINET code",
+      "matched_by": "label"
+    },
+    "jpdei_cor:SecurityCodeDEI": {
+      "field": "security_code",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "証券コード",
+      "label_en": "Security code",
+      "matched_by": "label"
+    },
+    "jplvh_cor:SecurityCodeDEI": {
+      "field": "security_code",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "証券コード",
+      "label_en": "Security code",
+      "matched_by": "label"
+    },
+    "jplvh_cor:SecurityCodeOfIssuer": {
+      "field": "security_code",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "証券コード",
+      "label_en": "Security code",
+      "matched_by": "label"
+    },
+    "jpdei_cor:FilerNameInJapaneseDEI": {
+      "field": "company_name_jp",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "提出者名（日本語表記）",
+      "label_en": "Filer name in Japanese",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CompanyNameCoverPage": {
+      "field": "company_name_jp",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "会社名",
+      "label_en": "Company name",
+      "matched_by": "label"
+    },
+    "jpcrp-esr_cor:CompanyNameCoverPage": {
+      "field": "company_name_jp",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "会社名",
+      "label_en": "Company name",
+      "matched_by": "label"
+    },
+    "jpcrp-sbr_cor:CompanyNameCoverPage": {
+      "field": "company_name_jp",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "会社名",
+      "label_en": "Company name",
+      "matched_by": "label"
+    },
+    "jpctl_cor:CompanyNameCoverPage": {
+      "field": "company_name_jp",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "会社名",
+      "label_en": "Company name",
+      "matched_by": "label"
+    },
+    "jpdei_cor:FilerNameInEnglishDEI": {
+      "field": "company_name_en",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "提出者名（英語表記）",
+      "label_en": "Filer name in English",
+      "matched_by": "label"
+    },
+    "jpdei_cor:AccountingStandardsDEI": {
+      "field": "accounting_standard",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "会計基準",
+      "label_en": "Accounting standards",
+      "matched_by": "label"
+    },
+    "jpdei_cor:CurrentFiscalYearStartDateDEI": {
+      "field": "fiscal_year_start",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "当事業年度開始日",
+      "label_en": "Current fiscal year start date",
+      "matched_by": "label"
+    },
+    "jpdei_cor:CurrentFiscalYearEndDateDEI": {
+      "field": "fiscal_year_end",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "当事業年度終了日",
+      "label_en": "Current fiscal year end date",
+      "matched_by": "label"
+    },
+    "jpdei_cor:WhetherConsolidatedFinancialStatementsArePreparedDEI": {
+      "field": "is_consolidated",
+      "category": "dei",
+      "standard": "jp_gaap",
+      "label_jp": "連結決算の有無",
+      "label_en": "Whether consolidated financial statements are prepared",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetSalesSummaryOfBusinessResults": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "売上高",
+      "label_en": "Net sales",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:OrdinaryIncomeSummaryOfBusinessResults": {
+      "field": "revenue",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "経常収益",
+      "label_en": "Ordinary income",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:RevenuesUSGAAPSummaryOfBusinessResults": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "売上高",
+      "label_en": "Revenues",
+      "matched_by": "label"
+    },
+    "jppfs_cor:NetSales": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "売上高",
+      "label_en": "Net sales",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenue1": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OrdinaryIncomeBNK": {
+      "field": "revenue",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "経常収益",
+      "label_en": "Ordinary income",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingIncomeINS": {
+      "field": "revenue",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "経常収益",
+      "label_en": "Ordinary income",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:RevenuesFromExternalCustomersInformationForEachRegionTextBlock": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "売上高",
+      "label_en": "Revenues from external customers",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NotesWhenThereIsSignificantSeasonalFluctuationInSalesOrOperatingExpensesTextBlock": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "売上高又は営業費用に著しい季節的変動がある場合の注記",
+      "label_en": "Notes when there is significant seasonal fluctuation in sales or operating expenses",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults": {
+      "field": "ordinary_income",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "経常利益又は経常損失（△）",
+      "label_en": "Ordinary profit (loss)",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OrdinaryIncome": {
+      "field": "ordinary_income",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "経常利益又は経常損失（△）",
+      "label_en": "Ordinary profit (loss)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults": {
+      "field": "net_income",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "親会社株主に帰属する当期純利益又は親会社株主に帰属する当期純損失（△）",
+      "label_en": "Profit (loss) attributable to owners of parent",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults": {
+      "field": "net_income",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "当期純利益又は当期純損失（△）",
+      "label_en": "Profit (loss)",
+      "matched_by": "label"
+    },
+    "jppfs_cor:ProfitLossAttributableToOwnersOfParent": {
+      "field": "net_income",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "親会社株主に帰属する当期純利益又は親会社株主に帰属する当期純損失（△）",
+      "label_en": "Profit (loss) attributable to owners of parent",
+      "matched_by": "label"
+    },
+    "jppfs_cor:ProfitLoss": {
+      "field": "net_income",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "当期純利益又は当期純損失（△）",
+      "label_en": "Profit (loss)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ComprehensiveIncomeSummaryOfBusinessResults": {
+      "field": "comprehensive_income",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "包括利益",
+      "label_en": "Comprehensive income",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ComprehensiveIncomeUSGAAPSummaryOfBusinessResults": {
+      "field": "comprehensive_income",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "包括利益",
+      "label_en": "Comprehensive income",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:TotalAssetsSummaryOfBusinessResults": {
+      "field": "total_assets",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "総資産額",
+      "label_en": "Total assets",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults": {
+      "field": "total_assets",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "総資産額",
+      "label_en": "Total assets",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:TotalAssetsJMISSummaryOfBusinessResults": {
+      "field": "total_assets",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "総資産額",
+      "label_en": "Total assets",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:TotalAssetsUSGAAPSummaryOfBusinessResults": {
+      "field": "total_assets",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "総資産額",
+      "label_en": "Total assets",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetAssetsSummaryOfBusinessResults": {
+      "field": "net_assets",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "純資産額",
+      "label_en": "Net assets",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:EquityIncludingPortionAttributableToNonControllingInterestUSGAAPSummaryOfBusinessResults": {
+      "field": "net_assets",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "純資産額",
+      "label_en": "Equity including portion attributable to non-controlling interest",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetAssetsPerShareSummaryOfBusinessResults": {
+      "field": "bps",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "１株当たり純資産額",
+      "label_en": "Net assets per share",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults": {
+      "field": "eps",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "１株当たり当期純利益又は当期純損失（△）",
+      "label_en": "Basic earnings (loss) per share",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults": {
+      "field": "diluted_eps",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "潜在株式調整後１株当たり当期純利益",
+      "label_en": "Diluted earnings per share",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults": {
+      "field": "equity_ratio",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "自己資本比率",
+      "label_en": "Equity-to-asset ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CapitalAdequacyRatioInternationalStandardSummaryOfBusinessResults": {
+      "field": "equity_ratio",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "自己資本比率（国際統一基準）",
+      "label_en": "Capital adequacy ratio (international standard)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CapitalAdequacyRatioDomesticStandardSummaryOfBusinessResults": {
+      "field": "equity_ratio",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "自己資本比率（国内基準）",
+      "label_en": "Capital adequacy ratio (domestic standard)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CapitalAdequacyRatioBISStandardSummaryOfBusinessResults": {
+      "field": "equity_ratio",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "自己資本比率（第一基準）",
+      "label_en": "Capital adequacy ratio (BIS standard)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CapitalAdequacyRatioDomesticStandard2SummaryOfBusinessResults": {
+      "field": "equity_ratio",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "自己資本比率（第二基準）",
+      "label_en": "Capital adequacy ratio (domestic standard)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:EquityToAssetRatioUSGAAPSummaryOfBusinessResults": {
+      "field": "equity_ratio",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "自己資本比率",
+      "label_en": "Equity-to-asset ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:RateOfReturnOnEquitySummaryOfBusinessResults": {
+      "field": "roe",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "自己資本利益率",
+      "label_en": "Rate of return on equity",
+      "matched_by": "label"
+    },
+    "jpsps_cor:HistoricalRecordsOfROETextBlock": {
+      "field": "roe",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "自己資本利益率（収益率）の推移",
+      "label_en": "Historical records of ROE",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:PriceEarningsRatioSummaryOfBusinessResults": {
+      "field": "pe_ratio",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "株価収益率",
+      "label_en": "Price-earnings ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:PriceEarningsRatioIFRSSummaryOfBusinessResults": {
+      "field": "pe_ratio",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "株価収益率",
+      "label_en": "Price-earnings ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:PriceEarningsRatioJMISSummaryOfBusinessResults": {
+      "field": "pe_ratio",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "株価収益率",
+      "label_en": "Price-earnings ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:PriceEarningsRatioUSGAAPSummaryOfBusinessResults": {
+      "field": "pe_ratio",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "株価収益率",
+      "label_en": "Price-earnings ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetCashProvidedByUsedInOperatingActivitiesSummaryOfBusinessResults": {
+      "field": "operating_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "営業活動によるキャッシュ・フロー",
+      "label_en": "Net cash provided by (used in) operating activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInOperatingActivitiesIFRSSummaryOfBusinessResults": {
+      "field": "operating_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "営業活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) operating activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInOperatingActivitiesJMISSummaryOfBusinessResults": {
+      "field": "operating_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "営業活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) operating activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInOperatingActivitiesUSGAAPSummaryOfBusinessResults": {
+      "field": "operating_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "営業活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) operating activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetCashProvidedByUsedInInvestingActivitiesSummaryOfBusinessResults": {
+      "field": "investing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "投資活動によるキャッシュ・フロー",
+      "label_en": "Net cash provided by (used in) investing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInInvestingActivitiesIFRSSummaryOfBusinessResults": {
+      "field": "investing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "投資活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) investing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInInvestingActivitiesJMISSummaryOfBusinessResults": {
+      "field": "investing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "投資活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) investing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInInvestingActivitiesUSGAAPSummaryOfBusinessResults": {
+      "field": "investing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "投資活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) investing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NetCashProvidedByUsedInFinancingActivitiesSummaryOfBusinessResults": {
+      "field": "financing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "財務活動によるキャッシュ・フロー",
+      "label_en": "Net cash provided by (used in) financing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInFinancingActivitiesIFRSSummaryOfBusinessResults": {
+      "field": "financing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "財務活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) financing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInFinancingActivitiesJMISSummaryOfBusinessResults": {
+      "field": "financing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "財務活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) financing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashFlowsFromUsedInFinancingActivitiesUSGAAPSummaryOfBusinessResults": {
+      "field": "financing_cf",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "財務活動によるキャッシュ・フロー",
+      "label_en": "Cash flows from (used in) financing activities",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CashAndCashEquivalentsSummaryOfBusinessResults": {
+      "field": "cash_and_equivalents",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "現金及び現金同等物の残高",
+      "label_en": "Cash and cash equivalents",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:NumberOfEmployees": {
+      "field": "num_employees",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "従業員数",
+      "label_en": "Number of employees",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults": {
+      "field": "dividends_per_share",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "１株当たり配当額",
+      "label_en": "Dividend paid per share",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:DividendPerShareDividendsOfSurplus": {
+      "field": "dividends_per_share",
+      "category": "summary_us_gaap",
+      "standard": "us_gaap",
+      "label_jp": "１株当たり配当額",
+      "label_en": "Dividend per share",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:PayoutRatioSummaryOfBusinessResults": {
+      "field": "payout_ratio",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "配当性向",
+      "label_en": "Payout ratio",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:CapitalStockSummaryOfBusinessResults": {
+      "field": "capital_stock",
+      "category": "summary",
+      "standard": "jp_gaap",
+      "label_jp": "資本金",
+      "label_en": "Share capital",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:RevenueKeyFinancialData": {
+      "field": "revenue",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "売上収益",
+      "label_en": "Revenue",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults": {
+      "field": "revenue",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "売上収益",
+      "label_en": "Revenue",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:RevenueJMISSummaryOfBusinessResults": {
+      "field": "revenue",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "売上収益",
+      "label_en": "Revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:Revenue": {
+      "field": "revenue",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "売上収益",
+      "label_en": "Revenue",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossBeforeTaxIFRSSummaryOfBusinessResults": {
+      "field": "income_before_tax",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "税引前利益又は税引前損失（△）",
+      "label_en": "Profit (loss) before tax",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossBeforeTaxJMISSummaryOfBusinessResults": {
+      "field": "income_before_tax",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "税引前利益又は税引前損失（△）",
+      "label_en": "Profit (loss) before tax",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossBeforeTaxUSGAAPSummaryOfBusinessResults": {
+      "field": "income_before_tax",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "税引前利益又は税引前損失（△）",
+      "label_en": "Profit (loss) before tax",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossIFRSSummaryOfBusinessResults": {
+      "field": "net_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期利益又は当期損失（△）",
+      "label_en": "Profit (loss)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults": {
+      "field": "net_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期利益又は当期損失（△）：親会社の所有者に帰属",
+      "label_en": "Profit (loss), attributable to owners of parent",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossJMISSummaryOfBusinessResults": {
+      "field": "net_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期利益又は当期損失（△）",
+      "label_en": "Profit (loss)",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ProfitLossAttributableToOwnersOfParentJMISSummaryOfBusinessResults": {
+      "field": "net_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期利益又は当期損失（△）：親会社の所有者に帰属",
+      "label_en": "Profit (loss), attributable to owners of parent",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ComprehensiveIncomeIFRSSummaryOfBusinessResults": {
+      "field": "comprehensive_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期包括利益",
+      "label_en": "Comprehensive income",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ComprehensiveIncomeAttributableToOwnersOfParentIFRSSummaryOfBusinessResults": {
+      "field": "comprehensive_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期包括利益：親会社の所有者に帰属",
+      "label_en": "Comprehensive income, attributable to owners of parent",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ComprehensiveIncomeJMISSummaryOfBusinessResults": {
+      "field": "comprehensive_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期包括利益",
+      "label_en": "Comprehensive income",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:ComprehensiveIncomeAttributableToOwnersOfParentJMISSummaryOfBusinessResults": {
+      "field": "comprehensive_income",
+      "category": "summary_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期包括利益：親会社の所有者に帰属",
+      "label_en": "Comprehensive income, attributable to owners of parent",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:OperatingIncomeLossUSGAAPSummaryOfBusinessResults": {
+      "field": "operating_income",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業利益又は営業損失（△）",
+      "label_en": "Operating profit (loss)",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingIncome": {
+      "field": "operating_income",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業利益又は営業損失（△）",
+      "label_en": "Operating profit (loss)",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueCNA": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueSEC": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:NetSalesORRealEstate": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "売上高",
+      "label_en": "Net sales",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueRWY": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueHighwayBusinessHWY": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueRelatedOperationsHighwayBusinessHWY": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue - related operations",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueOILTelecommunications": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueIncidentalELC": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueELE": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueIVT": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueINV": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueSPF": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueCMD": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:OperatingRevenueFND": {
+      "field": "revenue",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "営業収益",
+      "label_en": "Operating revenue",
+      "matched_by": "label"
+    },
+    "jppfs_cor:Assets": {
+      "field": "total_assets",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "資産",
+      "label_en": "Assets",
+      "matched_by": "label"
+    },
+    "jppfs_cor:Liabilities": {
+      "field": "total_liabilities",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "負債",
+      "label_en": "Liabilities",
+      "matched_by": "label"
+    },
+    "jppfs_cor:NetAssets": {
+      "field": "net_assets",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "純資産",
+      "label_en": "Net assets",
+      "matched_by": "label"
+    },
+    "jppfs_cor:NetAssetsMember": {
+      "field": "net_assets",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "純資産",
+      "label_en": "Net assets",
+      "matched_by": "label"
+    },
+    "jppfs_cor:ShortTermLoansPayable": {
+      "field": "short_term_loans",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "短期借入金",
+      "label_en": "Short-term borrowings",
+      "matched_by": "label"
+    },
+    "jppfs_cor:LongTermLoansPayable": {
+      "field": "long_term_loans",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "長期借入金",
+      "label_en": "Long-term borrowings",
+      "matched_by": "label"
+    },
+    "jppfs_cor:BondsPayable": {
+      "field": "bonds_payable",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "社債",
+      "label_en": "Bonds payable",
+      "matched_by": "label"
+    },
+    "jppfs_cor:CorporateBondsInvestmentSecuritiesAssetsBNK": {
+      "field": "bonds_payable",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "社債",
+      "label_en": "Corporate bonds",
+      "matched_by": "label"
+    },
+    "jppfs_cor:CorporateBondsAssetsINS": {
+      "field": "bonds_payable",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "社債",
+      "label_en": "Corporate bonds",
+      "matched_by": "label"
+    },
+    "jpcrp_cor:AnnexedDetailedScheduleOfCorporateBondsAndShortTermAndLongTermBorrowingsHWYTextBlock": {
+      "field": "bonds_payable",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "社債、長期借入金及び短期借入金の増減明細表",
+      "label_en": "Annexed detailed schedule of corporate bonds and short-term and long-term borrowings",
+      "matched_by": "label"
+    },
+    "jppfs_cor:CurrentPortionOfLongTermLoansPayable": {
+      "field": "current_portion_lt_loans",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "１年内返済予定の長期借入金",
+      "label_en": "Current portion of long-term borrowings",
+      "matched_by": "label"
+    },
+    "jppfs_cor:CommercialPapersLiabilities": {
+      "field": "commercial_paper",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "コマーシャル・ペーパー",
+      "label_en": "Commercial papers",
+      "matched_by": "label"
+    },
+    "jppfs_cor:CommercialPapersCAFND": {
+      "field": "commercial_paper",
+      "category": "financial_statement",
+      "standard": "jp_gaap",
+      "label_jp": "コマーシャル・ペーパー",
+      "label_en": "Commercial papers",
+      "matched_by": "label"
+    },
+    "jpigp_cor:RevenueIFRS": {
+      "field": "revenue",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "売上収益",
+      "label_en": "Revenue",
+      "matched_by": "label"
+    },
+    "jpigp_cor:Revenue2IFRS": {
+      "field": "revenue",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "収益",
+      "label_en": "Revenue",
+      "matched_by": "label"
+    },
+    "jpigp_cor:OperatingProfitLossIFRS": {
+      "field": "operating_income",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "営業利益（△損失）",
+      "label_en": "Operating profit (loss)",
+      "matched_by": "label"
+    },
+    "jpigp_cor:ProfitLossBeforeTaxIFRS": {
+      "field": "income_before_tax",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "税引前利益（△損失）",
+      "label_en": "Profit (loss) before tax",
+      "matched_by": "label"
+    },
+    "jpigp_cor:ProfitLossIFRS": {
+      "field": "net_income",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "当期利益（△損失）",
+      "label_en": "Profit (loss)",
+      "matched_by": "label"
+    },
+    "jpigp_cor:AssetsIFRS": {
+      "field": "total_assets",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "資産",
+      "label_en": "Assets",
+      "matched_by": "label"
+    },
+    "jpigp_cor:EquityIFRS": {
+      "field": "total_equity",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "資本",
+      "label_en": "Equity",
+      "matched_by": "label"
+    },
+    "jpigp_cor:EquityIFRSMember": {
+      "field": "total_equity",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "資本",
+      "label_en": "Equity",
+      "matched_by": "label"
+    },
+    "jpigp_cor:LiabilitiesIFRS": {
+      "field": "total_liabilities",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "負債",
+      "label_en": "Liabilities",
+      "matched_by": "label"
+    },
+    "jpigp_cor:BondsAndBorrowingsCLIFRS": {
+      "field": "bonds_and_borrowings",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "社債及び借入金",
+      "label_en": "Bonds and borrowings",
+      "matched_by": "label"
+    },
+    "jpigp_cor:BondsAndBorrowingsNCLIFRS": {
+      "field": "bonds_and_borrowings",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "社債及び借入金",
+      "label_en": "Bonds and borrowings",
+      "matched_by": "label"
+    },
+    "jpigp_cor:BondsAndBorrowingsLiabilitiesIFRS": {
+      "field": "bonds_and_borrowings",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "社債及び借入金",
+      "label_en": "Bonds and borrowings",
+      "matched_by": "label"
+    },
+    "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS": {
+      "field": "operating_cf",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "営業活動によるキャッシュ・フロー",
+      "label_en": "Net cash provided by (used in) operating activities",
+      "matched_by": "label"
+    },
+    "jpigp_cor:NetCashProvidedByUsedInInvestingActivitiesIFRS": {
+      "field": "investing_cf",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "投資活動によるキャッシュ・フロー",
+      "label_en": "Net cash provided by (used in) investing activities",
+      "matched_by": "label"
+    },
+    "jpigp_cor:NetCashProvidedByUsedInFinancingActivitiesIFRS": {
+      "field": "financing_cf",
+      "category": "financial_statement_ifrs",
+      "standard": "ifrs",
+      "label_jp": "財務活動によるキャッシュ・フロー",
+      "label_en": "Net cash provided by (used in) financing activities",
+      "matched_by": "label"
+    }
+  },
+  "reverse_map": {
+    "edinet_code": [
+      {
+        "element_id": "jpdei_cor:EDINETCodeDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jplvh_cor:EDINETCodeDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "security_code": [
+      {
+        "element_id": "jpdei_cor:SecurityCodeDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jplvh_cor:SecurityCodeDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jplvh_cor:SecurityCodeOfIssuer",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "company_name_jp": [
+      {
+        "element_id": "jpdei_cor:FilerNameInJapaneseDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CompanyNameCoverPage",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp-esr_cor:CompanyNameCoverPage",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp-sbr_cor:CompanyNameCoverPage",
+        "category": "dei",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpctl_cor:CompanyNameCoverPage",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "company_name_en": [
+      {
+        "element_id": "jpdei_cor:FilerNameInEnglishDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "accounting_standard": [
+      {
+        "element_id": "jpdei_cor:AccountingStandardsDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "fiscal_year_start": [
+      {
+        "element_id": "jpdei_cor:CurrentFiscalYearStartDateDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "fiscal_year_end": [
+      {
+        "element_id": "jpdei_cor:CurrentFiscalYearEndDateDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "is_consolidated": [
+      {
+        "element_id": "jpdei_cor:WhetherConsolidatedFinancialStatementsArePreparedDEI",
+        "category": "dei",
+        "standard": "jp_gaap"
+      }
+    ],
+    "revenue": [
+      {
+        "element_id": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:OperatingRevenue1SummaryOfBusinessResults",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:OrdinaryIncomeSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:RevenuesUSGAAPSummaryOfBusinessResults",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:NetSales",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenue1",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OrdinaryIncomeBNK",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingIncomeINS",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:RevenuesFromExternalCustomersInformationForEachRegionTextBlock",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:NotesWhenThereIsSignificantSeasonalFluctuationInSalesOrOperatingExpensesTextBlock",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:RevenueKeyFinancialData",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:RevenueIFRSSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:RevenueJMISSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jppfs_cor:Revenue",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueCNA",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueSEC",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:NetSalesORRealEstate",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueRWY",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueHighwayBusinessHWY",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueRelatedOperationsHighwayBusinessHWY",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueOILTelecommunications",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueIncidentalELC",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueELE",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueIVT",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueINV",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueSPF",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueCMD",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingRevenueFND",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:RevenueIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpigp_cor:Revenue2IFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "ordinary_income": [
+      {
+        "element_id": "jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OrdinaryIncome",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "net_income": [
+      {
+        "element_id": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:NetIncomeLossSummaryOfBusinessResults",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:ProfitLoss",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:ProfitLossIFRSSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ProfitLossJMISSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentJMISSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpigp_cor:ProfitLossIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "comprehensive_income": [
+      {
+        "element_id": "jpcrp_cor:ComprehensiveIncomeSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:ComprehensiveIncomeUSGAAPSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:ComprehensiveIncomeIFRSSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ComprehensiveIncomeAttributableToOwnersOfParentIFRSSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ComprehensiveIncomeJMISSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ComprehensiveIncomeAttributableToOwnersOfParentJMISSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "total_assets": [
+      {
+        "element_id": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:TotalAssetsJMISSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:TotalAssetsUSGAAPSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:Assets",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:AssetsIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "net_assets": [
+      {
+        "element_id": "jpcrp_cor:NetAssetsSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:EquityIncludingPortionAttributableToNonControllingInterestUSGAAPSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:NetAssets",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:NetAssetsMember",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "bps": [
+      {
+        "element_id": "jpcrp_cor:NetAssetsPerShareSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      }
+    ],
+    "eps": [
+      {
+        "element_id": "jpcrp_cor:BasicEarningsLossPerShareSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      }
+    ],
+    "diluted_eps": [
+      {
+        "element_id": "jpcrp_cor:DilutedEarningsPerShareSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      }
+    ],
+    "equity_ratio": [
+      {
+        "element_id": "jpcrp_cor:EquityToAssetRatioSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CapitalAdequacyRatioInternationalStandardSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CapitalAdequacyRatioDomesticStandardSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CapitalAdequacyRatioBISStandardSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CapitalAdequacyRatioDomesticStandard2SummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:EquityToAssetRatioUSGAAPSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      }
+    ],
+    "roe": [
+      {
+        "element_id": "jpcrp_cor:RateOfReturnOnEquitySummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpsps_cor:HistoricalRecordsOfROETextBlock",
+        "category": "summary",
+        "standard": "jp_gaap"
+      }
+    ],
+    "pe_ratio": [
+      {
+        "element_id": "jpcrp_cor:PriceEarningsRatioSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:PriceEarningsRatioIFRSSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:PriceEarningsRatioJMISSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:PriceEarningsRatioUSGAAPSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      }
+    ],
+    "operating_cf": [
+      {
+        "element_id": "jpcrp_cor:NetCashProvidedByUsedInOperatingActivitiesSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInOperatingActivitiesIFRSSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInOperatingActivitiesJMISSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInOperatingActivitiesUSGAAPSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "investing_cf": [
+      {
+        "element_id": "jpcrp_cor:NetCashProvidedByUsedInInvestingActivitiesSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInInvestingActivitiesIFRSSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInInvestingActivitiesJMISSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInInvestingActivitiesUSGAAPSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:NetCashProvidedByUsedInInvestingActivitiesIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "financing_cf": [
+      {
+        "element_id": "jpcrp_cor:NetCashProvidedByUsedInFinancingActivitiesSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInFinancingActivitiesIFRSSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInFinancingActivitiesJMISSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:CashFlowsFromUsedInFinancingActivitiesUSGAAPSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:NetCashProvidedByUsedInFinancingActivitiesIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "cash_and_equivalents": [
+      {
+        "element_id": "jpcrp_cor:CashAndCashEquivalentsSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      }
+    ],
+    "num_employees": [
+      {
+        "element_id": "jpcrp_cor:NumberOfEmployees",
+        "category": "summary",
+        "standard": "jp_gaap"
+      }
+    ],
+    "dividends_per_share": [
+      {
+        "element_id": "jpcrp_cor:DividendPaidPerShareSummaryOfBusinessResults",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:DividendPerShareDividendsOfSurplus",
+        "category": "summary_us_gaap",
+        "standard": "us_gaap"
+      }
+    ],
+    "payout_ratio": [
+      {
+        "element_id": "jpcrp_cor:PayoutRatioSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      }
+    ],
+    "capital_stock": [
+      {
+        "element_id": "jpcrp_cor:CapitalStockSummaryOfBusinessResults",
+        "category": "summary",
+        "standard": "jp_gaap"
+      }
+    ],
+    "income_before_tax": [
+      {
+        "element_id": "jpcrp_cor:ProfitLossBeforeTaxIFRSSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ProfitLossBeforeTaxJMISSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpcrp_cor:ProfitLossBeforeTaxUSGAAPSummaryOfBusinessResults",
+        "category": "summary_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpigp_cor:ProfitLossBeforeTaxIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "operating_income": [
+      {
+        "element_id": "jpcrp_cor:OperatingIncomeLossUSGAAPSummaryOfBusinessResults",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:OperatingIncome",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:OperatingProfitLossIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "total_liabilities": [
+      {
+        "element_id": "jppfs_cor:Liabilities",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpigp_cor:LiabilitiesIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "short_term_loans": [
+      {
+        "element_id": "jppfs_cor:ShortTermLoansPayable",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "long_term_loans": [
+      {
+        "element_id": "jppfs_cor:LongTermLoansPayable",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "bonds_payable": [
+      {
+        "element_id": "jppfs_cor:BondsPayable",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:CorporateBondsInvestmentSecuritiesAssetsBNK",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:CorporateBondsAssetsINS",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jpcrp_cor:AnnexedDetailedScheduleOfCorporateBondsAndShortTermAndLongTermBorrowingsHWYTextBlock",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "current_portion_lt_loans": [
+      {
+        "element_id": "jppfs_cor:CurrentPortionOfLongTermLoansPayable",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "commercial_paper": [
+      {
+        "element_id": "jppfs_cor:CommercialPapersLiabilities",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      },
+      {
+        "element_id": "jppfs_cor:CommercialPapersCAFND",
+        "category": "financial_statement",
+        "standard": "jp_gaap"
+      }
+    ],
+    "total_equity": [
+      {
+        "element_id": "jpigp_cor:EquityIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpigp_cor:EquityIFRSMember",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ],
+    "bonds_and_borrowings": [
+      {
+        "element_id": "jpigp_cor:BondsAndBorrowingsCLIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpigp_cor:BondsAndBorrowingsNCLIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      },
+      {
+        "element_id": "jpigp_cor:BondsAndBorrowingsLiabilitiesIFRS",
+        "category": "financial_statement_ifrs",
+        "standard": "ifrs"
+      }
+    ]
+  },
+  "namespaces": {
+    "jpdei_cor": "Document and Entity Information",
+    "jpcrp_cor": "Corporate Reporting (disclosure ordinance)",
+    "jppfs_cor": "Primary Financial Statements (JP GAAP)",
+    "jpigp_cor": "IFRS Group Reporting",
+    "jpdti_cor": "Document Type Information"
+  }
+}
