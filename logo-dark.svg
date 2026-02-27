@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" width="360" height="100">
+  <defs>
+    <style>
+      .wm { font-family: "Instrument Serif", "Georgia", serif; font-weight: 400; font-size: 40px; letter-spacing: -0.3px; }
+    </style>
+  </defs>
+
+  <!--
+    Mark: torii gate reduced to essence.
+    One accent rectangle (the beam/gateway) resting on two dark pillars.
+    Three rectangles. Nothing else. The negative space between the
+    pillars is the gate opening — the passage to the data.
+  -->
+  <g transform="translate(10, 16)">
+    <!-- Beam — accent, the gateway -->
+    <rect width="60" height="12" rx="2" fill="#34D399"/>
+    <!-- Left pillar -->
+    <rect x="6" y="16" width="12" height="52" rx="2" fill="#14213D"/>
+    <!-- Right pillar -->
+    <rect x="42" y="16" width="12" height="52" rx="2" fill="#14213D"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text class="wm" x="88" y="66">
+    <tspan fill="#34D399">Axi</tspan><tspan fill="#14213D">ora</tspan>
+  </text>
+</svg>

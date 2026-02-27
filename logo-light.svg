@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" width="360" height="100">
+  <defs>
+    <style>
+      .wm { font-family: "Instrument Serif", "Georgia", serif; font-weight: 400; font-size: 40px; letter-spacing: -0.3px; }
+    </style>
+  </defs>
+
+  <g transform="translate(10, 16)">
+    <rect width="60" height="12" rx="2" fill="#34D399"/>
+    <rect x="6" y="16" width="12" height="52" rx="2" fill="#E4E1D9"/>
+    <rect x="42" y="16" width="12" height="52" rx="2" fill="#E4E1D9"/>
+  </g>
+
+  <text class="wm" x="88" y="66">
+    <tspan fill="#34D399">Axi</tspan><tspan fill="#E4E1D9">ora</tspan>
+  </text>
+</svg>
