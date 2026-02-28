@@ -12,6 +12,7 @@
   <a href="https://github.com/axioradev/edinet-xbrl/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/axioradev/edinet-xbrl/actions/workflows/ci.yml/badge.svg"/></a>
   <a href="https://www.python.org/downloads/"><img alt="Python 3.12+" src="https://img.shields.io/badge/python-3.12%2B-blue.svg"/></a>
   <a href="https://github.com/axioradev/edinet-xbrl/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Modified_MIT-f5de53?&color=f5de53"/></a>
+  <a href="https://x.com/axioradev"><img alt="X (Twitter)" src="https://img.shields.io/badge/@axioradev-black?logo=x&logoColor=white"/></a>
 </div>
 
 <br>
